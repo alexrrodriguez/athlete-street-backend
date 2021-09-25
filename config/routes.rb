@@ -32,4 +32,6 @@ Rails.application.routes.draw do
 
   get "/suppliers/:id" => "suppliers#show"
 
+  post "/product_categories" => "product_categories#create"
+
 end

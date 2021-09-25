@@ -23,7 +23,7 @@ class ProductsController < ApplicationController
         image_url: params["image_url"],
         gender: params["gender"],
         description: params["description"],
-        itemcount: params["itemcount"],
+        item_count: params["itemcount"],
         supplier_id: params["supplier_id"]
       )
       if product.save
@@ -43,7 +43,7 @@ class ProductsController < ApplicationController
     product.image_url = params["image_url"] || product.image_url
     product.gender = params["gender"] || product.gender
     product.description = params["description"] || product.description
-    product.itemcount = params["itemcount"] || product.itemcount
+    product.item_count = params["itemcount"] || product.item_count
     product.supplier_id = params["supplier_id"] || product.supplier_id
 
     if product.save
