@@ -1,5 +1,5 @@
 class CartedProductSerializer < ActiveModel::Serializer
-  attributes :id, :quantity
+  attributes :id, :quantity, :product_id
 
   belongs_to :product
   belongs_to :user

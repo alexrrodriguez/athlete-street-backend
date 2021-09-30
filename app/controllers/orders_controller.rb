@@ -7,7 +7,7 @@ class OrdersController < ApplicationController
   end
 
   def create
-    carted_products = current_user.cartedProducts.where(status: "carted")
+    carted_products = current_user.carted_products.where(status: "carted")
     order = Order.new(
       user_id: current_user.id, 
     )
