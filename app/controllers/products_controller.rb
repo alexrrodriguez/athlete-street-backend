@@ -10,6 +10,11 @@ class ProductsController < ApplicationController
       render json: products
   end
 
+  def popular
+    popular = Product.first(6)
+    render json: popular
+  end
+
   def show
     product_id = params["id"]
     product = Product.find(product_id)
