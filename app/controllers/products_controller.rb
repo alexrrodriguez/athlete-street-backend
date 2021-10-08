@@ -15,6 +15,16 @@ class ProductsController < ApplicationController
     render json: popular
   end
 
+  def male
+    male = Product.where(gender: 'Male')
+    render json: male
+  end
+
+  def female
+    female = Product.where(gender: 'Female')
+    render json: female
+  end
+
   def show
     product_id = params["id"]
     product = Product.find(product_id)
