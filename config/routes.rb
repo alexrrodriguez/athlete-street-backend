@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   get "/popular" => "products#popular"
 
-  get "/popular" => "products#male"
+  get "/male" => "products#male"
+
+  get "/female" => "products#female"
 
   get "/products/:id" => "products#show"
 
