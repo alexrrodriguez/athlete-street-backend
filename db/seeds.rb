@@ -7,23 +7,25 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-# supplier = Supplier.create!(name: "Nike", email: "nike@example.com", phone_number: 555-5555)
+supplier = Supplier.create!(name: "Nike", email: "nike@example.com", phone_number: 555-5555)
 
-# supplier = Supplier.create!(name: "Addidas", email: "addidas@example.com", phone_number: 555-5555)
+supplier = Supplier.create!(name: "Addidas", email: "addidas@example.com", phone_number: 555-5555)
 
-# supplier = Supplier.create!(name: "Puma", email: "puma@example.com", phone_number: 555-5555)
+supplier = Supplier.create!(name: "Puma", email: "puma@example.com", phone_number: 555-5555)
 
-# category = Category.create!(name: "Shoes")
+category = Category.create!(name: "Shoes")
 
-# category = Category.create!(name: "Shorts")
+category = Category.create!(name: "Shorts")
 
-# category = Category.create!(name: "Pants")
+category = Category.create!(name: "Pants")
 
-# category = Category.create!(name: "Shirts")
+category = Category.create!(name: "Shirts")
 
-# category = Category.create!(name: "Jackets")
+category = Category.create!(name: "Jackets")
 
-# category = Category.create!(name: "Hats")
+category = Category.create!(name: "Hats")
+
+user = User.create!(name: "Tom Hanks", email: "tom@example.com", password: "password", password_confirmation: "password")
 
 product = Product.create!(name: "Nike Men's Revolution 5 Running Shoes", price:  44.97, image_url: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7JNOl2_xUNaXy3DIxQmkOw75dUceRhjX0QeooNwdY0JvJDEonfH6Mt918yn2exF8nXDzWTz0&usqp=CAY", gender: "Male", description: "When the road beckons, answer the call in a lightweight pair that’ll keep you moving mile after mile. Soft foam cushions your stride, and a reinforced heel delivers a smooth, stable ride. Crafted with knit material for breathable support, while a minimalist design fits in just about anywhere your day takes you.", item_count: 20, supplier_id:  1)
 
