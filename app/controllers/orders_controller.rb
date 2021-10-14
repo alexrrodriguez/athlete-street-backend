@@ -9,7 +9,7 @@ class OrdersController < ApplicationController
   def create
     carted_products = current_user.carted_products.where(status: "carted")
     order = Order.new(
-      user_id: current_user.id, 
+      user_id: params[:user_id], 
     )
       if order.save
         carted_products.update_all(status: "purchased", order_id: order.id)
