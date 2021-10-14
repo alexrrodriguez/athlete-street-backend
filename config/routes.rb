@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get "/female" => "products#female"
 
+  get "/gallery" => "products#gallery"
+
   get "/products/:id" => "products#show"
 
   post "/products" => "products#create"

@@ -25,6 +25,11 @@ class ProductsController < ApplicationController
     render json: female
   end
 
+  def gallery
+    gallery = Product.last(4)
+    render json: gallery
+  end
+
   def show
     product_id = params["id"]
     product = Product.find(product_id)
