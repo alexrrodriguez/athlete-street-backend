@@ -25,8 +25,6 @@ category = Category.create!(name: "Jackets")
 
 category = Category.create!(name: "Hats")
 
-user = User.create!(name: "Tom Hanks", email: "tom@example.com", password: "password", password_confirmation: "password")
-
 product = Product.create!(name: "Nike Revolution 5", price:  44.97, image_url: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7JNOl2_xUNaXy3DIxQmkOw75dUceRhjX0QeooNwdY0JvJDEonfH6Mt918yn2exF8nXDzWTz0&usqp=CAY", gender: "Male", description: "When the road beckons, answer the call in a lightweight pair that’ll keep you moving mile after mile. Soft foam cushions your stride, and a reinforced heel delivers a smooth, stable ride. Crafted with knit material for breathable support, while a minimalist design fits in just about anywhere your day takes you.", item_count: 20, supplier_id:  1)
 
 product = Product.create!(name: "Nike Men's AD Comfort Shoes", price:  64.99, image_url: "https://dks.scene7.com/is/image/GolfGalaxy/21NIKMDCMFRTBLKWHMNS_UNIVERSITY_RED_BLACK_WHIT?qlt=70&wid=1100&fmt=webp", gender: "Male", description: "Mixture of mesh and synthetic leather on the upper adds dimension to the modern design while keeping it lightweight, breathable and durable", item_count: 25, supplier_id:  1)
