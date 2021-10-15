@@ -11,8 +11,13 @@ class ProductsController < ApplicationController
   end
 
   def popular
-    popular = Product.first(6)
+    popular = Product.last(6)
     render json: popular
+  end
+
+  def new
+    new_arrivals = Product.first(6)
+    render json: new_arrivals
   end
 
   def male

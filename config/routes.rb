@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get "/popular" => "products#popular"
 
+  get "/new" => "products#new"
+
   get "/male" => "products#male"
 
   get "/female" => "products#female"
