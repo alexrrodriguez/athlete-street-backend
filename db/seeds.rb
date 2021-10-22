@@ -246,43 +246,260 @@
 
 # product = Product.create!(name: "Classic Padded", price:  65.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/587694/33/fnd/PNA/fmt/png/Essentials+-Padded-Women's-Jacket", gender: "Female", description: "Outfit yourself in essential performance with our Essentials + Padded Jacket, part of our new Essentials+ line. This high-performance jacket features sleek, minimalist lines, a full-zip closure with grown on chin guard for protection, multiple places to securely store belongings and our warmCELL technology to keep you cosy in even the coldest conditions.", item_count: 24, supplier_id:  3)
 
-product = Product.create!(name: "Utility Patch Beanie", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8bdb40d3-b827-4ffa-ba33-503b72e5edef/sportswear-mens-utility-patch-beanie-W9TlRl.png", gender: "Male", description: "Knit with a soft cashmere-like acrylic, the Nike Sportswear Utility Patch Beanie combines 4 patterns to bring a fresh look to this hardworking style. A pearl stitched detail and Futura logo on the crown and cuff elevate the look.", item_count: 21, supplier_id:  1)
+# product = Product.create!(name: "Utility Patch Beanie", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8bdb40d3-b827-4ffa-ba33-503b72e5edef/sportswear-mens-utility-patch-beanie-W9TlRl.png", gender: "Male", description: "Knit with a soft cashmere-like acrylic, the Nike Sportswear Utility Patch Beanie combines 4 patterns to bring a fresh look to this hardworking style. A pearl stitched detail and Futura logo on the crown and cuff elevate the look.", item_count: 21, supplier_id:  1)
 
-product = Product.create!(name: "Heritage 86", price:  25.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ed3d4958-7918-4feb-9872-baf7c0101e12/sportswear-heritage-86-cap-WVg3dt.png", gender: "Male", description: "The Nike Sportswear Heritage86 Cap is a classic 6-panel design with sweat-wicking support. It has a metal Swoosh design ingot in the front and an adjustable closure for the perfect fit.", item_count: 23, supplier_id:  1)
+# product = Product.create!(name: "Heritage 86", price:  25.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ed3d4958-7918-4feb-9872-baf7c0101e12/sportswear-heritage-86-cap-WVg3dt.png", gender: "Male", description: "The Nike Sportswear Heritage86 Cap is a classic 6-panel design with sweat-wicking support. It has a metal Swoosh design ingot in the front and an adjustable closure for the perfect fit.", item_count: 23, supplier_id:  1)
 
-product = Product.create!(name: "Skate Bucket Hat", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/537a65e2-e607-4f01-99ec-9a3aa9bf7865/sb-skate-bucket-hat-bkLKfD.png", gender: "Male", description: "Inspired by the collaborative look of a mosaic, the Nike SB Bucket Hat is crafted from different colored patches of soft woven fabric.", item_count: 20, supplier_id:  1)
+# product = Product.create!(name: "Skate Bucket Hat", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/537a65e2-e607-4f01-99ec-9a3aa9bf7865/sb-skate-bucket-hat-bkLKfD.png", gender: "Male", description: "Inspired by the collaborative look of a mosaic, the Nike SB Bucket Hat is crafted from different colored patches of soft woven fabric.", item_count: 20, supplier_id:  1)
 
-product = Product.create!(name: "Beanie", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c73aac6a-55e8-42ba-8822-645bdcafc881/sportswear-womens-beanie-tDrjcJ.png", gender: "Female", description: "Designed to make your day shine, the Nike Sportswear Beanie is a hardworking cuff style. Soft and cozy like your favorite cashmere sweater, it's an easy way to bring some warmth and sparkle to your look.", item_count: 18, supplier_id:  1)
+# product = Product.create!(name: "Beanie", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c73aac6a-55e8-42ba-8822-645bdcafc881/sportswear-womens-beanie-tDrjcJ.png", gender: "Female", description: "Designed to make your day shine, the Nike Sportswear Beanie is a hardworking cuff style. Soft and cozy like your favorite cashmere sweater, it's an easy way to bring some warmth and sparkle to your look.", item_count: 18, supplier_id:  1)
 
-product = Product.create!(name: "Headband", price:  25.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d893c0b5-c4b3-4aa1-b300-30f85e666d2b/warm-headband-lS2zK0.png", gender: "Female", description: "Designed to make your day shine, the Nike Sportswear Beanie is a hardworking cuff style. Soft and cozy like your favorite cashmere sweater, it's an easy way to bring some warmth and sparkle to your look.", item_count: 19, supplier_id:  1)
+# product = Product.create!(name: "Headband", price:  25.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d893c0b5-c4b3-4aa1-b300-30f85e666d2b/warm-headband-lS2zK0.png", gender: "Female", description: "Designed to make your day shine, the Nike Sportswear Beanie is a hardworking cuff style. Soft and cozy like your favorite cashmere sweater, it's an easy way to bring some warmth and sparkle to your look.", item_count: 19, supplier_id:  1)
 
-product = Product.create!(name: "Bucket Hat", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7fefdd48-de7d-4168-873e-54410a524d62/sportswear-icon-clash-womens-bucket-hat-QSKkjZ.png", gender: "Female", description: "Inspired by '90s designer styles, the Nike Sportswear Bucket Hat features an allover Houndstooth jacquard fabric and metal Swoosh graphic. Its 6-panel bell design offers a chic, carefree look you can pair with this season's Icon Clash styles.", item_count: 16, supplier_id:  1)
+# product = Product.create!(name: "Bucket Hat", price:  30.00, image_url: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7fefdd48-de7d-4168-873e-54410a524d62/sportswear-icon-clash-womens-bucket-hat-QSKkjZ.png", gender: "Female", description: "Inspired by '90s designer styles, the Nike Sportswear Bucket Hat features an allover Houndstooth jacquard fabric and metal Swoosh graphic. Its 6-panel bell design offers a chic, carefree look you can pair with this season's Icon Clash styles.", item_count: 16, supplier_id:  1)
 
-product = Product.create!(name: "Trefoil", price:  25.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d08bd53205ac475ba744ad4301203f24_9366/trefoil-beanie.jpg", gender: "Male", description: "A symbol of sport. A celebration of creativity. A commitment to living authentically. The adidas Trefoil logo stands out in simple embroidery on the front of this adidas beanie. Pull it on to keep your ears warm and your style fresh.", item_count: 17, supplier_id:  2)
+# product = Product.create!(name: "Trefoil", price:  25.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d08bd53205ac475ba744ad4301203f24_9366/trefoil-beanie.jpg", gender: "Male", description: "A symbol of sport. A celebration of creativity. A commitment to living authentically. The adidas Trefoil logo stands out in simple embroidery on the front of this adidas beanie. Pull it on to keep your ears warm and your style fresh.", item_count: 17, supplier_id:  2)
 
-product = Product.create!(name: "Sport Headband", price:  20.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/18255c5ca79145538ec2adaf016d68cc_9366/sport-headband.jpg", gender: "Male", description: "It doesn't matter what year it is, the '80s are about a vibe, and vibes are what this adidas headband is all about. The soft knit sweatband throws it ways back to the early days of fitness classes. A repeating linear Trefoil logo stands out in contrast colors.", item_count: 21, supplier_id:  2)
+# product = Product.create!(name: "Sport Headband", price:  20.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/18255c5ca79145538ec2adaf016d68cc_9366/sport-headband.jpg", gender: "Male", description: "It doesn't matter what year it is, the '80s are about a vibe, and vibes are what this adidas headband is all about. The soft knit sweatband throws it ways back to the early days of fitness classes. A repeating linear Trefoil logo stands out in contrast colors.", item_count: 21, supplier_id:  2)
 
-product = Product.create!(name: "Oversize Cuff Beanie", price:  20.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ebe10ec25c194ce3b669aca100b8579c_9366/oversize-cuff-beanie.jpg", gender: "Male", description: "Whatever the reason is — cold, style, questionable hair day — there's no wrong one with this adidas beanie. Cozy knit fabric helps you look and feel good, while an extended, oversize cuff provides subtle flair.", item_count: 22, supplier_id:  2)
+# product = Product.create!(name: "Oversize Cuff Beanie", price:  20.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ebe10ec25c194ce3b669aca100b8579c_9366/oversize-cuff-beanie.jpg", gender: "Male", description: "Whatever the reason is — cold, style, questionable hair day — there's no wrong one with this adidas beanie. Cozy knit fabric helps you look and feel good, while an extended, oversize cuff provides subtle flair.", item_count: 22, supplier_id:  2)
 
-product = Product.create!(name: "Sleek Strap-back", price:  20.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0ea1f6bac840424e9c11ac090092e2e0_9366/sleek-strap-back-hat.jpg", gender: "Female", description: "If you feel like your carefully curated outfit is missing something, it's probably this sleek adidas hat. With a crisp design and a durable nylon build, it's the perfect blend of laid-back and effortless style. A contrast Trefoil logo stands out on the front.", item_count: 24, supplier_id:  2)
+# product = Product.create!(name: "Sleek Strap-back", price:  20.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0ea1f6bac840424e9c11ac090092e2e0_9366/sleek-strap-back-hat.jpg", gender: "Female", description: "If you feel like your carefully curated outfit is missing something, it's probably this sleek adidas hat. With a crisp design and a durable nylon build, it's the perfect blend of laid-back and effortless style. A contrast Trefoil logo stands out on the front.", item_count: 24, supplier_id:  2)
 
-product = Product.create!(name: "Faux Fur-Pompom", price:  30.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e010253706504f9ab163ad1001152ed0_9366/faux-fur-pompom-beanie.jpg", gender: "Female", description: "A fuzzy pompom brings a fashionable twist to this beanie. The classic chunky design is made of knit and features a fold-up brim. An embroidered Trefoil logo gives a nod to adidas heritage.", item_count: 21, supplier_id:  2)
+# product = Product.create!(name: "Faux Fur-Pompom", price:  30.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e010253706504f9ab163ad1001152ed0_9366/faux-fur-pompom-beanie.jpg", gender: "Female", description: "A fuzzy pompom brings a fashionable twist to this beanie. The classic chunky design is made of knit and features a fold-up brim. An embroidered Trefoil logo gives a nod to adidas heritage.", item_count: 21, supplier_id:  2)
 
-product = Product.create!(name: "Rib Cuff Beanie", price:  25.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ad536ca4521e4154a7beaca1008dcb2f_9366/rib-cuff-beanie.jpg", gender: "Female", description: "Low temperatures, questionable hair day, pulling a look together — with this adidas beanie, all reasons are good reasons for tossing it on. It's low-key enough to not distract, and more than comfortable enough to get you from morning to night feeling good all the way through.
+# product = Product.create!(name: "Rib Cuff Beanie", price:  25.00, image_url: "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ad536ca4521e4154a7beaca1008dcb2f_9366/rib-cuff-beanie.jpg", gender: "Female", description: "Low temperatures, questionable hair day, pulling a look together — with this adidas beanie, all reasons are good reasons for tossing it on. It's low-key enough to not distract, and more than comfortable enough to get you from morning to night feeling good all the way through.
 
-This product is made with recycled content as part of our ambition to end plastic waste.", item_count: 19, supplier_id:  2)
+# This product is made with recycled content as part of our ambition to end plastic waste.", item_count: 19, supplier_id:  2)
 
-product = Product.create!(name: "Mid Fit Beanie", price:  25.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/022848/08/fnd/PNA/fmt/png/Archive-Mid-Fit-Beanie", gender: "Male", description: "Get comfy in the classic and cozy fit of our Archive Beanie. The waffle knit texture and Archive PUMA branding give off a bold retro feel.", item_count: 17, supplier_id:  3)
+# product = Product.create!(name: "Mid Fit Beanie", price:  25.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/022848/08/fnd/PNA/fmt/png/Archive-Mid-Fit-Beanie", gender: "Male", description: "Get comfy in the classic and cozy fit of our Archive Beanie. The waffle knit texture and Archive PUMA branding give off a bold retro feel.", item_count: 17, supplier_id:  3)
 
-product = Product.create!(name: "classic Cuffless", price:  15.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023433/05/fnd/PNA/fmt/png/Essentials-Classic-Cuffless-Beanie", gender: "Male", description: "Athletic and edgy, with a sleek, street-ready fit, the Essentials Classic Cuffless Beanie brings energy to your everyday look. Featuring a six-dart silhouette, a double layer knit construction, cool colour contrasting and bold PUMA branding, you'll brave the cold looking bold. Pair it with gym clothes for a sporty style or with jeans for a more sophisticated look.", item_count: 18, supplier_id:  3)
+# product = Product.create!(name: "classic Cuffless", price:  15.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023433/05/fnd/PNA/fmt/png/Essentials-Classic-Cuffless-Beanie", gender: "Male", description: "Athletic and edgy, with a sleek, street-ready fit, the Essentials Classic Cuffless Beanie brings energy to your everyday look. Featuring a six-dart silhouette, a double layer knit construction, cool colour contrasting and bold PUMA branding, you'll brave the cold looking bold. Pair it with gym clothes for a sporty style or with jeans for a more sophisticated look.", item_count: 18, supplier_id:  3)
 
-product = Product.create!(name: "Lightweight Running Cap", price:  20.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023147/07/fnd/PNA/fmt/png/Lightweight-Running-Cap", gender: "Male", description: "Stay safe, stay visible: this lightweight running cap features 360-degree reflectivity to boost visibility from all angles, even in low light conditions. Made with ultra-lightweight materials and moisture-wicking mesh to keep you cool and comfortable, this cap is in it for the long run.", item_count: 22, supplier_id:  3)
+# product = Product.create!(name: "Lightweight Running Cap", price:  20.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023147/07/fnd/PNA/fmt/png/Lightweight-Running-Cap", gender: "Male", description: "Stay safe, stay visible: this lightweight running cap features 360-degree reflectivity to boost visibility from all angles, even in low light conditions. Made with ultra-lightweight materials and moisture-wicking mesh to keep you cool and comfortable, this cap is in it for the long run.", item_count: 22, supplier_id:  3)
 
-product = Product.create!(name: "Liberty Garden", price:  40.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023105/02/fnd/PNA/fmt/png/PUMA-x-LIBERTY-Garden-Women's-Cap", gender: "Female", description: "London-based luxury retailer Liberty focuses on playful prints with urban edge. In this first ever collaboration, we come together to create a unified story that centres around today's most fearless leaders: powerful and creative women. This cap is both sporty and sophisticated, with a classic athletic shape and a whimsical floral pattern straight from the Liberty archives.", item_count: 20, supplier_id:  3)
+# product = Product.create!(name: "Liberty Garden", price:  40.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023105/02/fnd/PNA/fmt/png/PUMA-x-LIBERTY-Garden-Women's-Cap", gender: "Female", description: "London-based luxury retailer Liberty focuses on playful prints with urban edge. In this first ever collaboration, we come together to create a unified story that centres around today's most fearless leaders: powerful and creative women. This cap is both sporty and sophisticated, with a classic athletic shape and a whimsical floral pattern straight from the Liberty archives.", item_count: 20, supplier_id:  3)
 
-product = Product.create!(name: "Pom Pom Beanie", price:  30.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023436/03/fnd/PNA/fmt/png/Pom-Pom-Beanie-Women's-Hat", gender: "Female", description: "Combining cosy chenille fabric, a heavy gauge knit and a colourful pom pom, this beanie hat is as cute as can be, and the perfect winter accessory to ward off the cold in playful style. Subtle PUMA branding at the front and back adds the final touch, so you’ll be ready to hit the streets.", item_count: 21, supplier_id:  3)
+# product = Product.create!(name: "Pom Pom Beanie", price:  30.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/023436/03/fnd/PNA/fmt/png/Pom-Pom-Beanie-Women's-Hat", gender: "Female", description: "Combining cosy chenille fabric, a heavy gauge knit and a colourful pom pom, this beanie hat is as cute as can be, and the perfect winter accessory to ward off the cold in playful style. Subtle PUMA branding at the front and back adds the final touch, so you’ll be ready to hit the streets.", item_count: 21, supplier_id:  3)
 
-product = Product.create!(name: "Archive Mid Fit", price:  20.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/022848/09/fnd/PNA/fmt/png/Archive-Mid-Fit-Beanie", gender: "Female", description: "London-based luxury retailer Liberty focuses on playful prints with urban edge. In this first ever collaboration, we come together to create a unified story that centres around today's most fearless leaders: powerful and creative women. This cap is both sporty and sophisticated, with a classic athletic shape and a whimsical floral pattern straight from the Liberty archives.", item_count: 17, supplier_id:  3)
+# product = Product.create!(name: "Archive Mid Fit", price:  20.00, image_url: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/022848/09/fnd/PNA/fmt/png/Archive-Mid-Fit-Beanie", gender: "Female", description: "London-based luxury retailer Liberty focuses on playful prints with urban edge. In this first ever collaboration, we come together to create a unified story that centres around today's most fearless leaders: powerful and creative women. This cap is both sporty and sophisticated, with a classic athletic shape and a whimsical floral pattern straight from the Liberty archives.", item_count: 17, supplier_id:  3)
+
+product_category = ProductCategory.create!(product_id: 1, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 2, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 3, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 4, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 5, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 6, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 7, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 8, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 9, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 10, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 11, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 12, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 13, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 14, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 15, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 16, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 17, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 18, category_id: 1)
+
+product_category = ProductCategory.create!(product_id: 19, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 20, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 21, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 22, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 23, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 24, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 25, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 26, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 27, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 28, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 29, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 30, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 31, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 32, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 33, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 34, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 35, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 36, category_id: 2)
+
+product_category = ProductCategory.create!(product_id: 37, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 38, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 39, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 40, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 41, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 42, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 43, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 44, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 45, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 46, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 47, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 48, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 49, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 50, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 51, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 52, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 53, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 54, category_id: 3)
+
+product_category = ProductCategory.create!(product_id: 55, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 56, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 57, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 58, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 59, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 60, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 61, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 62, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 63, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 64, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 65, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 66, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 67, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 68, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 69, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 70, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 71, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 72, category_id: 4)
+
+product_category = ProductCategory.create!(product_id: 73, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 74, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 75, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 76, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 77, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 78, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 79, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 80, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 81, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 82, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 83, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 84, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 85, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 86, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 87, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 88, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 89, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 90, category_id: 5)
+
+product_category = ProductCategory.create!(product_id: 91, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 92, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 93, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 94, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 95, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 96, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 97, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 98, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 99, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 100, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 101, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 102, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 103, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 104, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 105, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 106, category_id: 6)
+
+product_category = ProductCategory.create!(product_id: 107, category_id: 6)
+
+
+
 
 
 
