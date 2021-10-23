@@ -20,6 +20,18 @@ Rails.application.routes.draw do
 
   delete "/products/:id" => "products#destroy"
 
+  get "/shoes" => "categories#shoes"
+
+  get "/shorts" => "categories#shorts"
+
+  get "/pants" => "categories#pants"
+
+  get "/shirts" => "categories#shirts"
+
+  get "/jackets" => "categories#jackets"
+
+  get "/hats" => "categories#hats"
+
   post "/users" => "users#create"
 
   post "/sessions" => "sessions#create"
